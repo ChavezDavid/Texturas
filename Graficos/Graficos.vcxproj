@@ -178,9 +178,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\carita.bmp">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
+    <Image Include="Texturas\carita.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

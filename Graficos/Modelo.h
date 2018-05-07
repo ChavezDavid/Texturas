@@ -27,8 +27,12 @@ public:
 	Shader *shader;
 	GLuint vertexArrayID;
 	GLuint bufferID;
+
+	GLuint uvBufferID;
+	vector<vec2> mapaUV;
+
 	Modelo();
 
-	void inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID, GLuint vistaID, GLuint proyeccionID);
+	void inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint modeloID, GLuint vistaID, GLuint proyeccionID, GLuint uvID, GLuint samplerImagenID, GLuint texturaID);
 	void dibujar(GLenum modoDibujo);
 };
